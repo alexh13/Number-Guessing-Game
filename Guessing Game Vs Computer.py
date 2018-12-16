@@ -22,5 +22,5 @@ while guesses < 1:  # while guesses < 1 keep running this loop
         print("That's too high -- guess again:")  # output informs user guess was too high
     if guess == number:  # if user guess was number then
         break  # break out of the loop
-print("Good job -- The number was", guess)  # output informs user number was guess and shows number
+print("Good job -- The number was", Guess)  # output informs user number was guess and shows number
 print("Here's all the guesses you made before you answered correctly:", Guess)  # outputs list of all user's attempts
